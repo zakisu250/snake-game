@@ -39,7 +39,7 @@ Installation
 
     bash
 
-git clone https://github.com/your-username/snaky.git
+git clone https://github.com/zakisu250/snaky.git
 
 Navigate to the project directory:
 
@@ -47,7 +47,7 @@ bash
 
     cd snaky
 
-    Open the index.html file in your web browser to start playing.
+    Open the `index.html` file in your web browser to start playing.
 
 Usage
 
