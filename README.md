@@ -5,15 +5,15 @@ Welcome to Snaky, a modern and captivating twist on the classic Snake game! Chal
 Snaky Gameplay
 Table of Contents
 
-    Gameplay
-    Features
-    Installation
-    Usage
-    Controls
-    Contributing
-    License
+    ##Gameplay
+    ##Features
+    ##Installation
+    ##Usage
+    ##Controls
+    ##Contributing
+    ##License
 
-Gameplay
+##Gameplay
 
 In Snaky, you control a snake that starts with a small body. Your objective is to:
 
@@ -21,7 +21,8 @@ In Snaky, you control a snake that starts with a small body. Your objective is t
     Avoid running into walls or colliding with your own body.
 
 As you progress, the snake's speed increases, making the game more challenging. The longer you survive and the more food you eat, the higher your score will be. Challenge your friends and see who can achieve the best score!
-Features
+
+##Features
 
     Classic Gameplay: Experience the nostalgia of the classic Snake game with modern enhancements.
 
@@ -33,7 +34,7 @@ Features
 
     Intuitive Controls: Easily control the snake's direction using arrow keys.
 
-Installation
+##Installation
 
     Clone the repository to your local machine:
 
@@ -49,7 +50,7 @@ bash
 
     Open the `index.html` file in your web browser to start playing.
 
-Usage
+##Usage
 
     Launch the game by opening index.html in your preferred web browser.
 
@@ -61,14 +62,14 @@ Usage
 
     Compete for the highest score and enjoy the classic Snake experience!
 
-Controls
+##Controls
 
     Arrow Up: Move the snake upward.
     Arrow Down: Move the snake downward.
     Arrow Left: Move the snake leftward.
     Arrow Right: Move the snake rightward.
 
-Contributing
+##Contributing
 
 We welcome contributions to make Snaky even better! Feel free to open issues, submit pull requests, or provide suggestions for improvements.
 
@@ -78,7 +79,7 @@ We welcome contributions to make Snaky even better! Feel free to open issues, su
     Push your changes to your fork.
     Submit a pull request with a clear description of your changes.
 
-License
+##License
 
 This project is licensed under the MIT License. You are free to use and modify the game for personal or educational purposes.
 
