@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.board {
+  height: 100vh;
+}
 .container {
   background: rgb(19, 18, 18);
   height: 100vh;
@@ -22,8 +25,8 @@ h1 {
 .gameBoard {
   display: grid;
   gap: 1px;
-  grid-template-columns: repeat(20, 30px);
-  grid-template-rows: repeat(20, 30px);
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
   width: max-content;
 }
 .cell {

@@ -5,7 +5,7 @@ import './snaky.css';
 
 function App() {
   return (
-    <div>
+    <div className="board">
       <GameBoard />
     </div>
   );

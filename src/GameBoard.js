@@ -44,14 +44,15 @@ export default function GameBoard() {
     setSnake(initialSnakePos);
     renderFood();
     setDirection('RIGHT');
+    alert(`Game over! | Score ${score}`);
     setScore(0);
   }
   function updateGame() {
     if (
-      snake[0].x < 0 ||
-      snake[0].x > 20 ||
-      snake[0].y < 0 ||
-      snake[0].y > 20
+      snake[0].x <= 0 ||
+      snake[0].x >= 20 ||
+      snake[0].y <= 0 ||
+      snake[0].y >= 20
     ) {
       gameOver();
       return;
@@ -122,7 +123,7 @@ export default function GameBoard() {
   }, [direction]);
 
   useEffect(() => {
-    let interval = setInterval(updateGame, 200);
+    let interval = setInterval(updateGame, 150);
     return () => clearInterval(interval, updateGame);
   });
 
