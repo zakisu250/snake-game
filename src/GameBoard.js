@@ -49,10 +49,10 @@ export default function GameBoard() {
   }
   function updateGame() {
     if (
-      snake[0].x <= 0 ||
-      snake[0].x >= 20 ||
-      snake[0].y <= 0 ||
-      snake[0].y >= 20
+      snake[0].x < 0 ||
+      snake[0].x > 20 ||
+      snake[0].y < 0 ||
+      snake[0].y > 20
     ) {
       gameOver();
       return;
@@ -92,6 +92,20 @@ export default function GameBoard() {
     setSnake(newSnake);
   }
   function renderFood() {
+    if (snake.length >= 300) {
+      alert('You won!');
+      setSnake(initialSnakePos);
+      setScore(0);
+      setDirection('RIGHT');
+      return;
+    }
+    if (
+      (snake[0].x === food.x && snake[0].y === food.y) ||
+      (snake[1].x === food.x && snake[1].y === food.y)
+    ) {
+      xPos = Math.floor(Math.random() * totalGridSize);
+      yPos = Math.floor(Math.random() * totalGridSize);
+    }
     setFood({ x: xPos, y: yPos });
   }
   useEffect(() => {
